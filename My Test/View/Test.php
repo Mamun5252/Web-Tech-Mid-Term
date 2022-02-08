@@ -1,13 +1,13 @@
 <html>
     <body>
-<form>
+    <form action=""method="post">
 First Name:
-<input type="text" name="fname"><br>
+<input type="fname" name="fname"><br>
 Last Name:
-<input type="text" name="fname">
+<input type="lname" name="lname">
 <br>
 Age:    
-<input type="  text  " name="   fname   ">
+<input type="age" name="age">
 <br>
 Designation:
 <input type="radio">Junior Programmer
@@ -20,15 +20,18 @@ Preferred Language
 <input type="radio">C++
 <br>
 E-mail:
-<input type="text" name="fname">
+<input type="email" name="email">
 <br>
 Password:
-<input type="text" name="fname">
+<input type="password" name="pass">
 <br>
 Please choose a file <input type="submit" value="Choose File">No file chosen
 <br>
-<input type="Submit">
-<input type="Reset">
+<input type="submit" name="Submit">
+<input type="reset" name ="Reset">
 </form>
 </body>
 </html>
+<?php
+include "../Control/results.php";
+?>
